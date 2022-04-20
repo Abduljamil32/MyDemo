@@ -16,7 +16,7 @@ struct ContentView: View {
        
     
     var body: some View {
-        Image("eifel_tower").resizable()
+        Image("eifel_tower")
             .scaleEffect(half ? 0.5 : 1.0)
             .opacity(dim ? 0.2 : 1.0)
             .animation(.easeInOut(duration: 1.0))
